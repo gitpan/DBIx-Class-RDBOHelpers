@@ -1,16 +1,13 @@
---- #YAML:1.0
-name:                DBIx-Class-RDBOHelpers
-version:             0.05
-abstract:            DBIC compat with Rose::DBx::Object::MoreHelpers
-license:             ~
-author:              
-    - Peter Karman <karman@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         DBIx-Class-RDBOHelpers
+version:      0.06
+version_from: lib/DBIx/Class/RDBOHelpers.pm
+installdirs:  site
+requires:
     Data::Dump:                    0
     DBICx::TestDatabase:           0
     Test::More:                    0
-meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30

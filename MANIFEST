@@ -13,4 +13,5 @@ t/lib/MyDBIC/Schema/Artist.pm
 t/lib/MyDBIC/Schema/Cd.pm
 t/lib/MyDBIC/Schema/CdTrackJoin.pm
 t/lib/MyDBIC/Schema/Track.pm
+t/lib/MyDBIC/Schema/CdToItself.pm
 META.yml                                 Module meta-data (added by MakeMaker)
